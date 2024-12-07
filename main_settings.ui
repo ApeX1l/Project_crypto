@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>592</width>
+    <height>313</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Выбрать Цвет:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Nirmala UI Semilight</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>График открытия</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="open_box">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>50</y>
+     <width>73</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Белый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Черный</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Желтый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Синий</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Красный</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Зеленый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Серый</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>110</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>График закрытия</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="close_box">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>73</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Белый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Черный</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Желтый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Синий</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Красный</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Зеленый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Серый</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>График минимума</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="min_box">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>180</y>
+     <width>73</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Белый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Черный</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Желтый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Синий</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Красный</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Зеленый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Серый</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>250</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>График максимума</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="max_box">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>250</y>
+     <width>73</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Белый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Черный</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Желтый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Синий</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Красный</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Зеленый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Серый</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="resultButton">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>250</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Rockwell Extra Bold</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Применить</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>50</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Задний фон графика</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="graph_box">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>50</y>
+     <width>73</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Белый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Черный</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>110</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Задний фон главного окна</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="background_box">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>110</y>
+     <width>81</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Светлый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Темный</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="tech_box">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>180</y>
+     <width>73</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Белый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Черный</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Желтый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Синий</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Красный</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Зеленый</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Серый</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>180</y>
+     <width>121</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>График индикатора</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
